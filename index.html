@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title> registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='style.css' type='text/css' />
+<script src=kaushik.js\"></script>
+<STYLE>
+    BODY{
+        background-image: url(ghrietn.jpeg);
+    }
+</STYLE>
+</head>
+<body onload="document.registration.userid.focus();">
+<h1>Examination FORM</h1>
+*Exam Registration Form.
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">EnrollnmentNo:</label></li>
+<li><input type="text" name="userid" required size="50" /></li>
+<li><label for="passid"> Phone no  :</label></li>
+<li><input type="password" name="passid" required size="50" /></li>
+<li><label for="username">Name:</label></li>
+<li><input type="text" name="username" required size="50" /></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" required size="50" /></li>
+<li><label for="country">Country:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select></li>
+<li><label for="pin">PIN Code:</label></li>
+<li><input type="text" name="PIN"required/></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" required size="50" /></li>
+<li><label id="gender">Sex:</label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label>Language:</label></li>
+<li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+<li><label for="Subject">SEMESTER:</label></li>
+<li><input type="text" name="Subject" required size="50" /></li>
+<li><label for="Subject">Subject:</label></li>
+<li><input type="text" name="SEM" required size="50" /></li>
+<li><label for="Subject">Branch:</label></li>
+<li><input type="text" name="Subject" required size="50" /></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
